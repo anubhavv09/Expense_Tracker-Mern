@@ -10,12 +10,22 @@ const News = () => {
      
     useEffect(()=>{
         const getData=async()=>{
-          const result= await axios.get('https://newsapi.org/v2/top-headlines?country=in&category=business&sortBy=publishedAt&pageSize=10&apiKey=b7c843d4002d410b9581e6fa74aa1568');
-        
-          
-          setStore(result.data.articles);
 
+          try{
+            const result= await axios.get(`${apiUrl}verify/getNews`);
 
+            if(result)
+            {
+              setStore(result.data);
+            }
+            else{
+              throw new Error("No news ")
+            }
+
+          }catch(error)
+          {
+          console.log(error);
+          }
         }
        getData();
 

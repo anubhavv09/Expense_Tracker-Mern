@@ -9,6 +9,7 @@ const passwordJWT = process.env.JWT_PASSWORD;
 const zod=require("zod");
 const passwordSchema=zod.string().min(6);
 const usernameSchema=zod.string().min(6);
+const axios=require('axios');
 app.use(cors());
 
 const addCredentials = async (req, res) => {
@@ -115,8 +116,27 @@ const getUserName=(req,res)=>{
 
 }
 
+const getNews=async(req,res)=>{
+
+  try{
+
+    const result=await axios.get('https://newsapi.org/v2/top-headlines?country=in&category=business&sortBy=publishedAt&pageSize=10&apiKey=b7c843d4002d410b9581e6fa74aa1568');
+    console.log(result.data.articles);
+
+    res.status(200).json({
+      data:result.data.articles
+    })
+
+  }
+  catch(error)
+  {
+   console.log(error);
+  }
+
+}
+
 module.exports = {
   addCredentials,
   verifyDetails,
-  getUserName
+  getUserName,getNews
 };

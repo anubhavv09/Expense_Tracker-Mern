@@ -18,6 +18,7 @@ const Signup = () => {
     const passwordSchema=zod.string().max(20).min(6);
     const apiUrl=import.meta.env.VITE_API_BASE_URL;
     // const emailSchema=zod.email().max(30).string();
+    
 
 
   const handleSubmit = async(e) => {
