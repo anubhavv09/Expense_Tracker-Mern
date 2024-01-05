@@ -1,7 +1,7 @@
 // Navbar.js
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "../Styles/Navbar.css";
+import "../Styles/navbar.css";
 import { useNavigate } from "react-router-dom";
 import obj from "./AuthService";
 import axios from "axios";
