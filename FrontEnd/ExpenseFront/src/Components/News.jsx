@@ -7,6 +7,7 @@ import '../Styles/News.css'
 
 const News = () => {
     const[store,setStore]=useState([]);
+    const apiUrl=import.meta.env.VITE_API_BASE_URL;
      
     useEffect(()=>{
         const getData=async()=>{
