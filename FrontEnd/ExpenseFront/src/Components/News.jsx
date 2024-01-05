@@ -4,6 +4,7 @@ import NewsCard from './NewsCard';
 import Navbar from './Navbar';
 import '../Styles/News.css'
 
+
 const News = () => {
     const[store,setStore]=useState([]);
      

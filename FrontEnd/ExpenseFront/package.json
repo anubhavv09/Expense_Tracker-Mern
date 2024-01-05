@@ -16,6 +16,7 @@
     "@mui/material": "^5.15.2",
     "axios": "^1.6.2",
     "chart.js": "^4.4.1",
+    "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-datepicker": "^4.25.0",

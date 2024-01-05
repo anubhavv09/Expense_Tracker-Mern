@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../Styles/Game.css";
 import finance from "./finance.json";
 import Navbar from "./Navbar";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Game = () => {
   const [questions, setQuestions] = useState([]);
@@ -10,6 +11,7 @@ const Game = () => {
   const [score, setScore] = useState(0);
   const [show, setShow] = useState(false);
   const [endGame, setEndGame] = useState(false);
+  const navigate=useNavigate();
 
   useEffect(() => {
     const fetchData = () => {
@@ -104,7 +106,7 @@ const Game = () => {
             <button type="submit" onClick={countScore} className="button-score">
              Check Score
             </button>
-            <button type="submit" onClick={() => window.location.reload()} className="button-score">
+            <button type="submit" onClick={() => navigate('/game')} className="button-score">
               End Game
             </button>
           </div>
