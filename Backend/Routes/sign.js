@@ -9,7 +9,7 @@ const signController=require('../Controller/Authenticate');
 router.post('/',signController.addCredentials)
 router.post('/login',signController.verifyDetails)
 router.get('/getUsername',signController.getUserName)
-router.get('/getNews',signController.getNews)
+
 
 
 

@@ -13,9 +13,8 @@ import News from './Components/News'
 import Navbar from './Components/Navbar'
 
 
-
+const AuthenticatedIncome=AuthHOC({WrappedComponent:Income})
 const AuthenticatedGame = AuthHOC({ WrappedComponent: Game });
-const AuthenticatedIncome = AuthHOC({ WrappedComponent: Income });
 const AuthenticatedExpense = AuthHOC({ WrappedComponent: Expense });
 const AuthenticatedDashBoard = AuthHOC({ WrappedComponent: DashBoard });
 const AuthenticatedNews=AuthHOC({WrappedComponent: News})
@@ -33,8 +32,8 @@ function App() {
           <Route path="/news"  element={<AuthenticatedNews/>}/>
           <Route path="/game"  element={<AuthenticatedGame/>} />
           <Route path="/signin"   element={<SignIn/>} />
-          {/* <Route path="/signup"  element={<Signup/>} /> */}
-          <Route path="/game"  element={<Game/>} />  
+          <Route path="/signup"  element={<Signup/>} />
+
       </Routes>
     </BrowserRouter>
     </>

@@ -116,27 +116,27 @@ const getUserName=(req,res)=>{
 
 }
 
-const getNews=async(req,res)=>{
+// const getNews=async(req,res)=>{
 
-  try{
+//   try{
 
-    const result=await axios.get('https://newsapi.org/v2/top-headlines?country=in&category=business&sortBy=publishedAt&pageSize=10&apiKey=b7c843d4002d410b9581e6fa74aa1568');
-    console.log(result.data.articles);
+//     const result=await axios.get('https://newsapi.org/v2/top-headlines?country=in&category=business&sortBy=publishedAt&pageSize=10&apiKey=b7c843d4002d410b9581e6fa74aa1568');
+//     console.log(result.data.articles);
 
-    return res.status(200).json({
-      data:result.data.articles
-    })
+//     return res.status(200).json({
+//       data:result.data.articles
+//     })
 
-  }
-  catch(error)
-  {
-   console.log(error);
-  }
+//   }
+//   catch(error)
+//   {
+//    console.log(error);
+//   }
 
-}
+// }
 
 module.exports = {
   addCredentials,
   verifyDetails,
-  getUserName,getNews
+  getUserName,
 };
