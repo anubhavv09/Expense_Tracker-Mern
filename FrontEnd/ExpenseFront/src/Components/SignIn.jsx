@@ -19,7 +19,8 @@ const SignIn = () => {
   const upiUrl=import.meta.env.VITE_API_BASE_URL;
 
   const loginData=async(e)=>{
-
+   
+    e.preventDefault();
 
    const username1=userSchema.safeParse(username);
    const password1=userSchema.safeParse(password);
@@ -32,7 +33,7 @@ const SignIn = () => {
    }
 
 
-    e.preventDefault();
+   
     if(password!==confirm)
     {
       setChecker(true);
