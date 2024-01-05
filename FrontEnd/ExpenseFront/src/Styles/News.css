@@ -1,0 +1,12 @@
+.show-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .card-news {
+    width: calc(33.33% - 20px); /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+  }

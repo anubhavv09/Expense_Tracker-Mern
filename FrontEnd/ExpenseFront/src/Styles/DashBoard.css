@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-dashboard{
+    display: flex;
+    height: 100vh;
+    margin: 20px;
+}
+.child-1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.child-2{
+    width: 30%;
+    background-color: #F8EDF1;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:0px 0px 0px 3px whitesmoke;
+
+}
+
+
+.incomes-expenditure{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.income-1{
+    background-color: #F2ECF1;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow:0px 0px 0px 3px whitesmoke;
+}
+
+.difference-parent{
+    display: flex;
+    justify-content: center;
+   
+}
+.header-store{
+    display: flex;
+}
+
+.recent-table{
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+    height: 45px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow:0px 0px 0px 3px #F8EDF1;
+
+}
+
+.title-recent{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #423563;
+}
+
+.recent-requests{
+    margin-top: 20px;
+}
+
+.income-recent{
+    color: green;
+   
+}
+
+.income-recent2{
+    color: green;
+  
+  
+}
+
+.recent-expense{
+    color: red;
+   
+}
+
+
+.recent-expense2{
+    color: red;
+    
+}
+
+.adjust{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 40px;
+}
+.icon-1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.icon-2{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+   
+}
+.show-bar{
+    display: flex;
+    justify-content: center;
+
+}
+
+.show-box-1{
+    width: 40px;
+    background-color: green;
+    height: 10px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.show-box-2{
+    width: 40px;
+    background-color: #C60000;
+    height: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.show-box-3{
+    width: 40px;
+    background-color: #A0A0A0;
+    height: 10px;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width:600px){
+
+    .main-dashboard{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 20px;
+    }
+
+    .incomes-expenditure{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .difference-parent{
+        display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: 40px;
+      
+       
+       
+    }
+
+    .child-2{
+        width: 100%;
+        background-color: #F8EDF1;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow:0px 0px 0px 3px whitesmoke;
+        margin-top: 100px;
+    
+    }
+
+
+    .recent-table{
+        display: flex;
+        justify-content: space-around;
+        width: 99%;
+        height: 45px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 20px;
+        box-shadow:0px 0px 0px 3px #F8EDF1;
+    
+    }
+
+}
+
+
+
+
+

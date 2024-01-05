@@ -1,0 +1,31 @@
+.snackbar{
+    height: 40px;
+    width: 99%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.snackbar-2{
+    margin-top: 10px;
+}
+.snackbar-3{
+    margin-top: 10px;
+}
+
+@media (max-width:600px) {
+
+    .snackbar{
+        height: 40px;
+        width: 99%;
+        background-color: white;
+        margin-top: 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+
+}

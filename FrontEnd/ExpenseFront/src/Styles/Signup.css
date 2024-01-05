@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-4{
+   
+}
+
+.signup-heading{
+    font-size: 40px;
+    font-weight: 200px;
+}
+
+.signup-heading2{
+    font-size: 15px;
+    margin-top: 10px;
+   
+}
+
+.form-4 input{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #F0E4F2;
+    text-indent: 20px;
+}
+
+.form-4 button{
+    margin-top: 20px;
+    background-color: #ff8ab9;
+   
+}
+.already-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+   
+}
+
+.input-container input {
+    padding-left: 30px;
+}
+
+.input-container svg {
+    position: absolute;
+    left: 20px; 
+    top: 65%;
+    transform: translateY(-50%);
+    color: #555; 
+}
+.already-user{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.move-out{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color:#ff8ab9 ;
+    border: none;
+}
+
+.already-font{
+    font-weight: 200;
+}

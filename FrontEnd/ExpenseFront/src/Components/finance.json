@@ -1,0 +1,247 @@
+
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the purpose of a budget?",
+        "options": ["Save money", "Track expenses", "Both A and B"],
+        "correctAnswer": "Both A and B"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a fixed expense?",
+        "options": ["Groceries", "Rent", "Dining out"],
+        "correctAnswer": "Rent"
+      },
+      {
+        "id": 3,
+        "question": "What does APR stand for?",
+        "options": ["Annual Percentage Rate", "Average Personal Return", "Asset Protection Ratio"],
+        "correctAnswer": "Annual Percentage Rate"
+      },
+      {
+        "id": 4,
+        "question": "Why is it important to have an emergency fund?",
+        "options": ["To buy luxury items", "To cover unexpected expenses", "To invest in stocks"],
+        "correctAnswer": "To cover unexpected expenses"
+      },
+      {
+        "id": 5,
+        "question": "What is the difference between a debit card and a credit card?",
+        "options": ["Debit card is for online shopping only", "Credit card is linked to a bank account", "Credit card allows borrowing money"],
+        "correctAnswer": "Credit card allows borrowing money"
+      },
+      {
+        "id": 6,
+        "question": "How can you increase your credit score?",
+        "options": ["Max out your credit cards", "Pay bills on time", "Avoid checking your credit report"],
+        "correctAnswer": "Pay bills on time"
+      },
+      {
+        "id": 7,
+        "question": "What is compound interest?",
+        "options": ["Interest calculated on the initial principal", "Interest calculated on the accumulated interest", "A type of bank account"],
+        "correctAnswer": "Interest calculated on the accumulated interest"
+      },
+     
+      {
+        "id": 8,
+        "question": "What is the purpose of insurance?",
+        "options": ["To save money", "To protect against financial loss", "To get discounts on medical bills"],
+        "correctAnswer": "To protect against financial loss"
+      },
+      {
+        "id": 9,
+        "question": "What is a 401(k) retirement plan?",
+        "options": ["A type of bank account", "A tax-advantaged retirement savings plan", "A real estate investment"],
+        "correctAnswer": "A tax-advantaged retirement savings plan"
+      },
+      {
+        "id": 10,
+        "question": "How does inflation affect purchasing power?",
+        "options": ["Increases purchasing power", "Decreases purchasing power", "No effect on purchasing power"],
+        "correctAnswer": "Decreases purchasing power"
+      },
+      {
+        "id": 11,
+        "question": "What is the concept of 'buying on margin' in investing?",
+        "options": ["Purchasing goods with a discount", "Borrowing money to buy stocks", "Using cash for transactions"],
+        "correctAnswer": "Borrowing money to buy stocks"
+      },
+      {
+        "id": 12,
+        "question": "What is the purpose of a Roth IRA?",
+        "options": ["Tax-free growth and withdrawals in retirement", "Providing insurance coverage", "Short-term investment gains"],
+        "correctAnswer": "Tax-free growth and withdrawals in retirement"
+      },
+      {
+        "id": 13,
+        "question": "What is a mutual fund?",
+        "options": ["A type of bank account", "A pool of money from many investors", "A government-issued bond"],
+        "correctAnswer": "A pool of money from many investors"
+      },
+      {
+        "id": 14,
+        "question": "How can you reduce your debt?",
+        "options": ["Ignore it and hope it goes away", "Spend more than you earn", "Create a budget and prioritize payments"],
+        "correctAnswer": "Create a budget and prioritize payments"
+      },
+      {
+        "id": 15,
+        "question": "What is the purpose of a will?",
+        "options": ["To plan a vacation", "To distribute assets after death", "To apply for a mortgage"],
+        "correctAnswer": "To distribute assets after death"
+      },
+      {
+        "id": 16,
+        "question": "What is the difference between a stock and a bond?",
+        "options": ["Stock represents ownership in a company", "Bond is a type of loan", "Both A and B"],
+        "correctAnswer": "Both A and B"
+      },
+      {
+        "id": 17,
+        "question": "What is the concept of 'opportunity cost'?",
+        "options": ["The cost of opportunities", "The value of the next best alternative", "The cost of living"],
+        "correctAnswer": "The value of the next best alternative"
+      },
+      {
+        "id": 18,
+        "question": "How does diversification reduce investment risk?",
+        "options": ["By concentrating investments in a single asset", "By spreading investments across different assets", "By avoiding investments altogether"],
+        "correctAnswer": "By spreading investments across different assets"
+      },
+      {
+        "id": 19,
+        "question": "What is the purpose of a financial advisor?",
+        "options": ["To give fashion advice", "To provide investment guidance", "To sell products on TV"],
+        "correctAnswer": "To provide investment guidance"
+      },
+      {
+        "id": 20,
+        "question": "What is the concept of 'net worth'?",
+        "options": ["The total value of assets minus liabilities", "The total income earned in a year", "The total savings in a bank account"],
+        "correctAnswer": "The total value of assets minus liabilities"
+      },
+      {
+        "id": 21,
+        "question": "What is the concept of 'compounding' in finance?",
+        "options": ["Earning interest on the initial principal", "Reinvesting earnings to earn more in the future", "A type of loan"],
+        "correctAnswer": "Reinvesting earnings to earn more in the future"
+      },
+      {
+        "id": 22,
+        "question": "How does the Federal Reserve influence the economy?",
+        "options": ["By setting fiscal policy", "By controlling inflation", "By regulating monetary policy"],
+        "correctAnswer": "By regulating monetary policy"
+      },
+      {
+        "id": 23,
+        "question": "What is the difference between a traditional IRA and a Roth IRA?",
+        "options": ["Tax-free withdrawals in retirement", "Tax-deductible contributions", "Tax-free contributions"],
+        "correctAnswer": "Tax-deductible contributions"
+      },
+      {
+        "id": 24,
+        "question": "How can you protect yourself from identity theft?",
+        "options": ["Share personal information online", "Use strong passwords", "Never check your credit report"],
+        "correctAnswer": "Use strong passwords"
+      },
+      {
+        "id": 25,
+        "question": "What is the role of a credit score in financial decisions?",
+        "options": ["Determining eligibility for loans and credit cards", "Providing investment advice", "Calculating income tax"],
+        "correctAnswer": "Determining eligibility for loans and credit cards"
+      },
+      {
+        "id": 26,
+        "question": "What is a 529 plan used for?",
+        "options": ["Retirement savings", "Education savings", "Emergency fund"],
+        "correctAnswer": "Education savings"
+      },
+      {
+        "id": 27,
+        "question": "How does inflation impact investment returns?",
+        "options": ["Increases returns", "Decreases returns", "No impact on returns"],
+        "correctAnswer": "Decreases returns"
+      },
+      {
+        "id": 28,
+        "question": "What is the concept of 'liquidity'?",
+        "options": ["Ability to buy and sell assets easily", "Freezing assets", "Investing in real estate"],
+        "correctAnswer": "Ability to buy and sell assets easily"
+      },
+      {
+        "id": 29,
+        "question": "What is the purpose of a FICO credit score?",
+        "options": ["To measure academic performance", "To assess creditworthiness", "To evaluate job performance"],
+        "correctAnswer": "To assess creditworthiness"
+      },
+      {
+        "id": 30,
+        "question": "What is a budget surplus?",
+        "options": ["Spending more than earning", "Earning more than spending", "Breaking even"],
+        "correctAnswer": "Earning more than spending"
+      },
+      {
+        "id": 31,
+        "question": "What is the role of the Securities and Exchange Commission (SEC)?",
+        "options": ["To regulate banks", "To protect investors and maintain fair markets", "To issue currency"],
+        "correctAnswer": "To protect investors and maintain fair markets"
+      },
+      {
+        "id": 32,
+        "question": "What is the concept of 'dollar-cost averaging' in investing?",
+        "options": ["Investing only in dollars", "Buying more shares when prices are low and fewer when prices are high", "Investing in foreign currencies"],
+        "correctAnswer": "Buying more shares when prices are low and fewer when prices are high"
+      },
+      {
+        "id": 33,
+        "question": "How does a stock split affect the number of shares an investor holds?",
+        "options": ["Decreases the number of shares", "Increases the number of shares", "No impact on the number of shares"],
+        "correctAnswer": "Increases the number of shares"
+      },
+      {
+        "id": 34,
+        "question": "What is the purpose of a 403(b) retirement plan?",
+        "options": ["For government employees", "For non-profit organization employees", "For private sector employees"],
+        "correctAnswer": "For non-profit organization employees"
+      },
+      {
+        "id": 35,
+        "question": "What is the concept of 'asset allocation'?",
+        "options": ["Diversifying investments across different asset classes", "Concentrating all investments in a single asset class", "Withdrawing assets from investment accounts"],
+        "correctAnswer": "Diversifying investments across different asset classes"
+      },
+      {
+        "id": 36,
+        "question": "How does a recession impact unemployment rates?",
+        "options": ["Increases unemployment rates", "Decreases unemployment rates", "No impact on unemployment rates"],
+        "correctAnswer": "Increases unemployment rates"
+      },
+      {
+        "id": 37,
+        "question": "What is the purpose of a credit counseling service?",
+        "options": ["To offer investment advice", "To provide information on credit card rewards", "To help individuals manage debt and improve credit"],
+        "correctAnswer": "To help individuals manage debt and improve credit"
+      },
+      {
+        "id": 38,
+        "question": "How does a 15-year mortgage differ from a 30-year mortgage?",
+        "options": ["Higher interest rates", "Shorter repayment period", "Lower monthly payments"],
+        "correctAnswer": "Shorter repayment period"
+      },
+      {
+        "id": 39,
+        "question": "What is the purpose of the Federal Deposit Insurance Corporation (FDIC)?",
+        "options": ["To regulate stock markets", "To insure bank deposits", "To set interest rates"],
+        "correctAnswer": "To insure bank deposits"
+      },
+      {
+        "id": 40,
+        "question": "What is the concept of 'capital gains'?",
+        "options": ["Profits earned from selling assets", "Investing in startups", "Donating money to charity"],
+        "correctAnswer": "Profits earned from selling assets"
+      }
+    ]
+  }
+  

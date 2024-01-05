@@ -1,0 +1,13 @@
+.salary-header-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.p-snackbar{
+    font-size: 20px;
+}
+
+.p-snackbar-salary{
+    font-size:25px ;
+}
