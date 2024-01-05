@@ -55,6 +55,10 @@ const Game = () => {
 
   };
 
+  const startGame=()=>{
+    navigate('/');
+  }
+
   useEffect(() => {
     console.log("hit");
   }, [endGame]);
@@ -106,7 +110,7 @@ const Game = () => {
             <button type="submit" onClick={countScore} className="button-score">
              Check Score
             </button>
-            <button type="submit" onClick={() => navigate('/game')} className="button-score">
+            <button type="submit" onClick={startGame} className="button-score">
               End Game
             </button>
           </div>

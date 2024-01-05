@@ -50,7 +50,7 @@ const SignIn = () => {
         "Content-Type":"application/json"
       }
     })
-    console.log(result);
+    
     const token=await result.data.token;
 
     // localStorage.setItem('token1',token);

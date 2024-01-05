@@ -45,7 +45,7 @@ const Expense = () => {
     }
 
 
-    console.log(apiUrl);
+    
 
   
     const data1={
