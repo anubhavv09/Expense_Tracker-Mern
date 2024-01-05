@@ -3,7 +3,7 @@ require('dotenv').config()
 const mongoose=require("mongoose")
 const url=process.env.MONGO_URL;
 const PORT=process.env.PORT;
-const db='admin';
+const db='expense';
 const {Income1}=require('../Models/Income');
 const {Expense1}=require('../Models/Expense');
 const {User}=require('../Models/User');
