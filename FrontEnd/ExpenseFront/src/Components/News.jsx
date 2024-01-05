@@ -11,13 +11,13 @@ const News = () => {
      
     useEffect(()=>{
         const getData=async()=>{
-
+     
           try{
             const result= await axios.get(`${apiUrl}verify/getNews`);
 
             if(result)
             {
-              setStore(result.data);
+              setStore(result.data.data);
             }
             else{
               throw new Error("No news ")

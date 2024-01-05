@@ -14,7 +14,7 @@ import Navbar from './Components/Navbar'
 
 
 
-const AuthenticatedHome = AuthHOC({ WrappedComponent: Home });
+const AuthenticatedGame = AuthHOC({ WrappedComponent: Game });
 const AuthenticatedIncome = AuthHOC({ WrappedComponent: Income });
 const AuthenticatedExpense = AuthHOC({ WrappedComponent: Expense });
 const AuthenticatedDashBoard = AuthHOC({ WrappedComponent: DashBoard });
@@ -29,12 +29,14 @@ function App() {
        
           <Route path="/income" element={<AuthenticatedIncome />} />
           <Route path="/expense" element={<AuthenticatedExpense />} />
-          <Route path="/dashboard" element={<AuthenticatedDashBoard />} />
-          <Route path="/news"  element={<AuthenticatedNews/>} />
+          <Route path="/dashboard" element={<AuthenticatedDashBoard />} /> 
+          <Route path="/news"  element={<AuthenticatedNews/>}/>
+          <Route path="/game"  element={<AuthenticatedGame/>} />
           <Route path="/signin"   element={<SignIn/>} />
           {/* <Route path="/signup"  element={<Signup/>} /> */}
           <Route path="/game"  element={<Game/>} />
           <Route path="/navbar"  element={<Navbar/>} />
+        
       </Routes>
     </BrowserRouter>
     </>
