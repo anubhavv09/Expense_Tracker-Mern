@@ -14,10 +14,12 @@ const News = () => {
      
           try{
             const result= await axios.get(`${apiUrl}verify/getNews`);
+            console.log(result.data.data);
 
             if(result)
             {
               setStore(result.data.data);
+              
             }
             else{
               throw new Error("No news ")
