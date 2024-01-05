@@ -53,7 +53,7 @@ const Signup = () => {
     }
 
     try{
-     await axios.post(`${apiUrl}/verify`,data)
+     await axios.post(`${apiUrl}verify`,data)
       
         setUserName("");
         setPassword("");
