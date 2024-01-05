@@ -24,7 +24,7 @@ const News = () => {
 
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="show-news">
         {store && store.length > 0 ? (
           store.map((element, index) => {
