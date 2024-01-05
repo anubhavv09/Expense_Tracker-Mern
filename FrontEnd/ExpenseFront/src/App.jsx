@@ -34,9 +34,7 @@ function App() {
           <Route path="/game"  element={<AuthenticatedGame/>} />
           <Route path="/signin"   element={<SignIn/>} />
           {/* <Route path="/signup"  element={<Signup/>} /> */}
-          <Route path="/game"  element={<Game/>} />
-          <Route path="/navbar"  element={<Navbar/>} />
-        
+          <Route path="/game"  element={<Game/>} />  
       </Routes>
     </BrowserRouter>
     </>
