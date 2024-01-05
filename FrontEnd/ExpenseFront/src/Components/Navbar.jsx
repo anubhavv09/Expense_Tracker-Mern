@@ -34,7 +34,7 @@ const Navbar = () => {
         };
 
         const result = await axios.get(
-          `${apiUrl}/verify/getUsername`,
+          `${apiUrl}verify/getUsername`,
           config
         );
         setUsername(result.data.username);

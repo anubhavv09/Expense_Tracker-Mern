@@ -64,8 +64,8 @@ const Expense = () => {
           Authorization:`Bearer ${token2}`
         }
       }
-        await axios.post(`${apiUrl}/transactions/expense`, data1,objToken);
-        const result = await axios.get(`${apiUrl}/transactions/expense/getExpense`,objToken);
+        await axios.post(`${apiUrl}transactions/expense`, data1,objToken);
+        const result = await axios.get(`${apiUrl}transactions/expense/getExpense`,objToken);
         setTotalExpense(result.data.message);
         
       } catch (error) {
@@ -86,8 +86,8 @@ const Expense = () => {
         }
       }
 
-    axios.delete(`${apiUrl}/transactions/expense/${id}`);
-    const result= await axios.get(`${apiUrl}/transactions/expense/getExpense`,objToken);
+    axios.delete(`${apiUrl}transactions/expense/${id}`);
+    const result= await axios.get(`${apiUrl}transactions/expense/getExpense`,objToken);
     setTotalExpense(result.data.message);
    }catch(error)
    {
@@ -106,7 +106,7 @@ const Expense = () => {
             }
           };
          
-          const result = await axios.get(`${apiUrl}/transactions/total`,config);
+          const result = await axios.get(`${apiUrl}transactions/total`,config);
            
           
             setCurrentIn(result.data.data);
@@ -132,7 +132,7 @@ const Expense = () => {
             Authorization:`Bearer ${token2}`
           }
         }
-        const result= await axios.get(`${apiUrl}/transactions/expense/getExpense`,config);
+        const result= await axios.get(`${apiUrl}transactions/expense/getExpense`,config);
        
         setTotalExpense(result.data.message);
         // setTotalExpense(result.data.data);    

@@ -35,7 +35,7 @@ const DashBoard = () => {
           }
         }
         const result2 = await axios.get(
-          `${apiUrl}/transactions/income`,config
+          `${apiUrl}transactions/income`,config
         );
         if(result2.data.data)
         {
@@ -63,7 +63,7 @@ const DashBoard = () => {
         }
 
         const result = await axios.get(
-          `${apiUrl}/transactions/total`,config
+          `${apiUrl}transactions/total`,config
         );
         if(result.data.data)
         {
@@ -90,7 +90,7 @@ const DashBoard = () => {
             Authorization:`Bearer ${result3}`
           }
         }
-        const result= await axios.get(`${apiUrl}/transactions/maxmin`,config);
+        const result= await axios.get(`${apiUrl}transactions/maxmin`,config);
        if(result.data.max&&result.data.min)
        {
         setMax(result.data.max);
@@ -114,7 +114,7 @@ const DashBoard = () => {
       }
          
         try{
-            const result2=await axios.get(`${apiUrl}/transactions/expense/maxmin`,hd);
+            const result2=await axios.get(`${apiUrl}transactions/expense/maxmin`,hd);
             
             if(result2.data.min&&result2.data.max)
             {
@@ -143,7 +143,7 @@ const DashBoard = () => {
           }
         }
         
-        const data3=await axios.get(`${apiUrl}/transactions/expense/recent`,config);
+        const data3=await axios.get(`${apiUrl}transactions/expense/recent`,config);
         if(data3.data.data)
         {
           setRecent(data3.data.data);

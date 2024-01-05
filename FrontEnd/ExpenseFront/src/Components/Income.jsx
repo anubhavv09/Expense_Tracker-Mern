@@ -66,9 +66,9 @@ const Income = () => {
         },
       };
      
-      await axios.post(`${apiUrl}/transactions`, parcel, config);
+      await axios.post(`${apiUrl}transactions`, parcel, config);
       const result = await axios.get(
-        `${apiUrl}/transactions/getIncome`,
+        `${apiUrl}transactions/getIncome`,
         config
       );
      
@@ -89,9 +89,9 @@ const Income = () => {
           Authorization: `Bearer ${result2}`,
         },
       };
-      await axios.delete(`${apiUrl}/transactions/${id}`);
+      await axios.delete(`${apiUrl}transactions/${id}`);
       const result = await axios.get(
-        `${apiUrl}/transactions/getIncome`,
+        `${apiUrl}transactions/getIncome`,
         config
       );
       setTotalIncome(result.data.data);
@@ -111,7 +111,7 @@ const Income = () => {
           },
         };
         const result = await axios.get(
-          `${apiUrl}/transactions/income`,
+          `${apiUrl}transactions/income`,
           config
         );
        
@@ -133,7 +133,7 @@ const Income = () => {
           },
         };
         const result = await axios.get(
-          `${apiUrl}/transactions/getIncome`,
+          `${apiUrl}transactions/getIncome`,
           config
         );
         setTotalIncome(result.data.data);

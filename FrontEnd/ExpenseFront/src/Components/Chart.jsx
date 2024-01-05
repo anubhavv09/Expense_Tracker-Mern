@@ -17,7 +17,7 @@ const Chart = () => {
             Authorization: `Bearer ${result2}`
           }
         };
-        const result = await axios.get(`${apiUrl}/transactions/income`,config);
+        const result = await axios.get(`${apiUrl}transactions/income`,config);
       
         setIncome(result.data?.data || 0);
       } catch (error) {
@@ -35,7 +35,7 @@ const Chart = () => {
               Authorization:`Bearer ${result2}`
             }
           };
-            const result=await axios.get(`${apiUrl}/transactions/total`,config);
+            const result=await axios.get(`${apiUrl}transactions/total`,config);
              setExpense(result.data.data)
            
         }

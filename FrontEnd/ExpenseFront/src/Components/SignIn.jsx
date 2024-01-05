@@ -45,7 +45,7 @@ const SignIn = () => {
     }
     
     try{
-    const result= await axios.post(`${upiUrl}/verify/login`,obj1,{
+    const result= await axios.post(`${upiUrl}verify/login`,obj1,{
       headers:{
         "Content-Type":"application/json"
       }
