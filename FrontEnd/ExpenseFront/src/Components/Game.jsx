@@ -56,7 +56,7 @@ const Game = () => {
   };
 
   const startGame=()=>{
-    navigate('/');
+    navigate('/dashboard');
   }
 
   useEffect(() => {
