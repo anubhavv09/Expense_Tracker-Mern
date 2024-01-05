@@ -15,7 +15,7 @@ const SignIn = () => {
   const [confirm,setConfirm]=useState('');
   const [checker,setChecker]=useState(false);
   const navigate = useNavigate();
-  const userSchema=z.string().max(10);
+  const userSchema=z.string().max(20).min(6);
   const upiUrl=import.meta.env.VITE_API_BASE_URL;
 
   const loginData=async(e)=>{
@@ -27,7 +27,7 @@ const SignIn = () => {
    
    if(!username1.success||!password1.success||!confirm1.success)
    {
-    alert("Character length is too Long")
+    alert("Username length is too Long or Short")
     return;
    }
 
