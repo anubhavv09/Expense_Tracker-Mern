@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { memo } from 'react'
 import '../Styles/Card.css'
 
-const Card = ({title,value}) => {
+const Card = memo(({title,value}) => {
   return (
     <div>
         <div className="card">
@@ -16,5 +16,5 @@ const Card = ({title,value}) => {
            
     </div>
   )
-}
+})
 export default Card

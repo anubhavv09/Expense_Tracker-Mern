@@ -24,15 +24,13 @@ function App() {
     <>
   <BrowserRouter>
       <Routes> 
-        
-       
           <Route path="/income" element={<AuthenticatedIncome />} />
           <Route path="/expense" element={<AuthenticatedExpense />} />
           <Route path="/dashboard" element={<AuthenticatedDashBoard />} /> 
           <Route path="/news"  element={<AuthenticatedNews/>}/>
           <Route path="/game"  element={<AuthenticatedGame/>} />
           <Route path="/signin"   element={<SignIn/>} />
-          <Route path="/signup"  element={<Signup/>} />
+          <Route path="/"  element={<Signup/>} />
 
       </Routes>
     </BrowserRouter>

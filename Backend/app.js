@@ -13,10 +13,6 @@ const verify=require('./Middleware/expense');
 app.use(express.json());
 app.use(cors())
 
-app.get('/',(req,res)=>{
-    res.send("Hello World");
-
-})
 
 app.use('/transactions',transactionRouter);
 app.use('/verify',verifyRouter);
